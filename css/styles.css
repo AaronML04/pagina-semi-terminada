@@ -32,16 +32,22 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-      background: linear-gradient(90deg,
-  rgba(26, 35, 46, 1) 0%,
-  rgba(25, 36, 46, 1) 29%,
-  rgba(35, 52, 68, 1) 66%,
-  rgba(26, 35, 46, 1) 100%
-);
+    background: linear-gradient(90deg,
+    rgba(26, 35, 46, 1) 0%,
+    rgba(25, 36, 46, 1) 29%,
+    rgba(35, 52, 68, 1) 66%,
+    rgba(26, 35, 46, 1) 100%
+    );
     padding: 15px 30px;
     color: white;
     -webkit-box-shadow: 0px 13px 15px 5px #000000; 
     box-shadow: 0px 13px 15px 5px #000000;
+
+    /*Navgador estatico*/
+    z-index: 10;
+    position: sticky;
+    top: 0;
+
 }
 
 header img {
